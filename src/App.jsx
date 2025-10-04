@@ -8,51 +8,6 @@ function App() {
 
   return (
     <>
-      <meta charSet="UTF-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      />
-      <meta name="description" content="" />
-      <meta name="author" content="" />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-        rel="stylesheet"
-      />
-      <title>Chain App Dev - App Landing Page HTML5 Template</title>
-      {/* Bootstrap core CSS */}
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-      {/*
-
-    TemplateMo 570 Chain App Dev
-
-    https://templatemo.com/tm-570-chain-app-dev
-
-    */}
-      {/* Additional CSS Files */}
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossOrigin="anonymous"
-      />
-      <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css" />
-      <link rel="stylesheet" href="assets/css/animated.css" />
-      <link rel="stylesheet" href="assets/css/owl.css" />
-      {/* ***** Preloader Start ***** */}
-      <div id="js-preloader" className="js-preloader">
-        <div className="preloader-inner">
-          <span className="dot" />
-          <div className="dots">
-            <span />
-            <span />
-            <span />
-          </div>
-        </div>
-      </div>
-      {/* ***** Preloader End ***** */}
       {/* ***** Header Area Start ***** */}
       <header
         className="header-area header-sticky wow slideInDown"
@@ -105,7 +60,8 @@ function App() {
         </div>
       </header>
       {/* ***** Header Area End ***** */}
-      <div id="modal" className="popupContainer" style={{ display: "none" }}>
+      
+      <div id="modal" className="popupContainer" style={{ display: "popupBody" }}>
         <div className="popupHeader">
           <span className="header_title">Login</span>
           <span className="modal_close">
